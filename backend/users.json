@@ -5,5 +5,12 @@
     "email": "sinemkarakurt58@gmail.com",
     "password": "$2b$10$etj3bdtdcmvsLbXPv8Ig.e4ezHZQ6gh6ZV0vrWuBlv9aDI6EmaEoO",
     "createdAt": "2025-12-18T17:59:12.090Z"
+  },
+  {
+    "id": 1766247447954,
+    "fullName": "Taha Yasin Bike",
+    "email": "taha@gmail.com",
+    "password": "$2b$10$UL9h8gTbxnbTn9teCr7MaevCWXzjVCWTS0cGftwNSfTQiSutms79y",
+    "createdAt": "2025-12-20T16:17:27.954Z"
   }
 ]

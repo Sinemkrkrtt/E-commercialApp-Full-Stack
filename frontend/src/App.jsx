@@ -84,8 +84,9 @@ function AppContent() {
   const hideAppBarRoutes = ["/loginPage", "/registerPage"];
   const showAppBar = !hideAppBarRoutes.includes(location.pathname);
 
-
   const pageTitles = {
+    // --- Genel Sayfalar ---
+    "/": "Home",
     "/NewCollections": "New Collections",
     "/woman": "Woman",
     "/man": "Man",
@@ -93,6 +94,23 @@ function AppContent() {
     "/favorites": "Favorites",
     "/cart": "Shopping Bag",
 
+    // --- Kadın Kategorileri (Woman) ---
+    "/category/blouse": "Woman's Blouses",
+    "/category/dress": "Woman's Dresses",
+    "/category/woman-pants": "Woman's Pants",
+    "/category/skirt": "Woman's Skirts",
+    "/category/woman-shorts": "Woman's Shorts",
+    "/category/woman-outerwear": "Woman's Outerwear",
+    "/category/bag": "Woman's Bags",
+    "/category/woman-shoes": "Woman's Shoes",
+    "/category/woman-accesories": "Woman's Accessories", // Rotadaki olası yazım hatasına uyumlu
+
+    // --- Erkek Kategorileri (Man) ---
+    "/category/man-tshirt": "Men's Tops",
+    "/category/man-pants": "Men's Bottoms",
+    "/category/man-outerwear": "Men's Outerwear",
+    "/category/man-shoes": "Men's Shoes",
+    "/category/man-accessories": "Men's Accessories"
   };
 
   const currentTitle = pageTitles[location.pathname] || "";
